@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>LOJA DO THUR</title>
+	
+	<link rel="icon" href="icones/icone1.png" type="image/png">
+
+	<style>
+
+		body{ background-image: url(fundo1.webp);
+			background-repeat: no-repeat; 
+			background-size: cover;
+			background-position: center;}
+
+		p{
+			text-align: justify;
+			text-indent: 10px;
+			color: white;
+		}
+		h1{
+			text-align: center;
+			color: burlywood;
+			font-family: times new roman;
+
+		}
+		h2 {
+			text-align: center;
+			color: burlywood;
+		}
+
+		.galeria {
+  			display: flex; /*transforma o contêiner em um flex container.*/
+  			justify-content: center; /* centraliza os itens */
+ 			gap: 40px; /* espaço entre as imagens */
+  			flex-wrap: wrap; /* para que fiquem em coluna em telas pequenas */
+  			margin-top: 20px; /*adiciona um espaço de 20px acima do containe*/
+}
+
+		.galeria figure {
+  			text-align: center;
+}
+
+		.galeria img {
+  			border: 8px solid burlywood;
+  			border-radius: 10px;
+		}
+
+		.produto{
+			text-align: center;
+			font-weight: bold; /*deixar em negrito */
+			color: white;
+			font-size: 16px;
+		}
+
+		.fim{
+			text-align: center;
+			color: white;
+			font-size: 20px;
+		}
+	</style>
+</head>
+<body>
+
+	<h1>BEM VINDO A LOJA DO THUR!!!</h1>
+
+	<p>"Bem-vindo à Loja do Thur! Aqui você encontra os melhores celulares e acessórios com preços que cabem no seu bolso. Oferecemos uma variedade de produtos das melhores marcas, com garantia e entrega rápida. Navegue pelo nosso site e encontre o que há de melhor em tecnologia, com o suporte que você merece!"</p>
+
+	<h2> CONHEÇA NOSSA LOJA </h2>
+
+	<p> Trabalhamos todos os dias para melhor atender você! Somos uma loja especializada em aparelhos eletrônicos, comprometida com a qualidade, a confiança e o atendimento de excelência. Aqui, você encontra os melhores produtos do mercado, desde celulares de última geração até acessórios tecnológicos indispensáveis para o seu dia a dia. Nosso diferencial está em oferecer preços competitivos, promoções exclusivas, atendimento personalizado, produtos originais com garantia, entrega rápida e segura em todo o Brasil, além de um suporte pós-venda dedicado para garantir sua satisfação total. Se você busca tecnologia de ponta, segurança na compra e uma loja que realmente se importa com sua experiência, você está no lugar certo. Venha conferir nossos lançamentos, aproveite as melhores ofertas e descubra por que tantos clientes confiam na gente. Aqui, a inovação está ao seu alcance porque você merece o melhor.</p>
+
+	<h2>NOSSOS PRODUTOS</h2>	
+	<div class="galeria">
+		<figure>
+			<p class="produto">IPHONE O CELULAR DO FUTURO</p>
+			<a href="iphone.html" target="_blank">
+				<img src="foto1.jpg" width="300px" height="300px" alt="iphone ">
+			</a>
+		</figure>
+
+
+		<figure>
+			<p class="produto"> SAMSUNG CONFIANÇA E QUALIDADE</p>
+			<a href="samsung.html" target="_blank">
+				<img src="foto2.jpg" width="300px" height="300px">
+			</a>
+		</figure>
+	
+		<figure>
+			<p class="produto">XIAOMI CADA VEZ MELHOR</p>
+			<a href="xiaomi.html" target="_blank">
+				<img src="foto3.webp" width="300px" height="300px">
+			</a>
+		</figure>
+
+	</div>
+	<hr>
+		<p class="fim">Site Desenvolvido Por Arthur</p>
+
+</body>
+</html>

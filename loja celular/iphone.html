@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>IPHONE</title>
+
+	<link rel="icon" href="icones/icone3.png" type="image/png">
+
+	<style>
+
+		body {
+			background-image: url('fundo2.jpg');
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center; /* Centraliza a imagem */
+		}
+
+		h1 {
+			text-align: center;
+			font-size: 50px;
+			font-family: 'Times New Roman', Times, serif;
+			color: white;
+		}
+
+		p {
+			text-align: center;
+			font-size: 30px;
+			color: purple;
+		}
+
+		.galeria{
+			display: flex;
+			justify-content: center;  /* centraliza os itens */
+			gap: 30px; /* espaço entre as imagens */
+			flex-wrap: wrap; /* para que fiquem em coluna em telas pequenas */
+			margin-top: 20px;/*adiciona um espaço de 20px acima do containe*/
+		}
+		.galeria figure{
+			text-align: center;
+			
+		}
+		.galeria img{
+			border: 8px solid purple;
+		}
+
+		.iphone {
+			color: white;
+		}
+
+	</style>
+</head>
+<body>
+	<h1>NOSSOS IPHONES DISPONÍVIES</h1>
+	<p>Explore nossa seleção exclusiva de iPhones. Qualidade e tecnologia ao seu alcance!</p>
+
+	<div class="galeria">
+		<figure>
+			<p class="iphone">IPHONE 13</p>
+				<img src="foto iphone/iphone1.webp" width="300px" height="300px">
+		</figure>
+
+		<figure>
+			<p class="iphone">IPHONE 14</p>
+				<img src="foto iphone/iphone2.webp" width="300px" height="300px">
+		</figure>
+
+		<figure>
+			<p class="iphone">IPHONE 15</p>
+				<img src="foto iphone/iphone3.jpg" width="300px" height="300px">
+		</figure>
+
+		<figure>
+			<p class="iphone">IPHONE 16</p>
+				<img src="foto iphone/iphone4.webp" width="300px" height="300px">
+		</figure>
+
+	</div>
+
+</body>
+</html>
